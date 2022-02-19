@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import{DragDropModule} from '@angular/cdk/drag-drop';
 import { AppComponent } from './app.component';
 import { MainviewComponent } from './mainview/mainview.component';
-import { RoutingModule } from './routing.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +11,6 @@ import { RoutingModule } from './routing.module';
   ],
   imports: [
     BrowserModule,
-    RoutingModule,
     DragDropModule
   ],
   providers: [],
